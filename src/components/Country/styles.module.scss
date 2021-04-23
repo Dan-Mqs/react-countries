@@ -1,0 +1,80 @@
+.countryCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 25rem;
+    padding: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    margin: 1rem;
+
+    .countryHeader {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        text-align: center;
+        padding: 0;
+        
+        h2 {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            font-size: 0;
+            width: 3rem;
+            height: 1.75rem;
+            border-radius: 0.3rem;
+        }
+    }
+
+    ul {
+        text-indent: 0;
+        padding: 0;
+    }
+
+
+    li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-indent: 0;
+        gap: 1rem;
+        margin-bottom: 0.5rem;
+
+       .lineWrapper {
+           flex: 1;
+           background: rgba(0, 0, 0, 0.05);
+           width: 100%;
+           height: 2px;
+       } 
+
+       .infoRight {
+           text-align: right;
+       }
+
+       .infoLeft {
+            text-align: left;
+       }
+
+       .timezones {
+            font-size: 0.85rem;
+            color: #888;
+            text-align: right;
+       }
+    }
+
+    .mapButton {
+        img {
+            width: 2rem;
+            opacity: 0.3;
+        }
+    }
+
+    article {
+        text-align: center;
+    }
+}
