@@ -1,3 +1,3 @@
-### Project created to learn API consumption using React + Next.
+# Project created to learn API consumption using React + Next.
 
 API consumed: [REST Countries](https://restcountries.eu/)
