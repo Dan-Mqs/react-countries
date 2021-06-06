@@ -2,4 +2,4 @@
 
 API consumed: [REST Countries](https://restcountries.eu/)
 
-![App Screenshot](https://imgur.com/tubmPz0)
+![App Screenshot](https://i.imgur.com/tubmPz0.jpg)
