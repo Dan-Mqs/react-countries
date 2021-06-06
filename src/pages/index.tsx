@@ -32,7 +32,7 @@ export const getStaticProps = async () => {
         code: country.alpha3Code,
         flag: country.flag,
         capital: country.capital,
-        population: country.population,
+        population: country.population.toLocaleString() ,
         timezones: formatTimezones(country),
         currenciesName: currenciesToString(country),
         currenciesSymbols: currenciesSymbolsToString(country),
