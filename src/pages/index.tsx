@@ -1,6 +1,5 @@
 import Country from "../components/Country"
 import { api } from "../services/api"
-import { currenciesSymbolsToString } from "../utils/currenciesSymbolsToString";
 import { currenciesToString } from "../utils/currenciesToString";
 import { formatTimezones } from "../utils/formatTimezones";
 import { getCoordinatesLat } from "../utils/getCoordinatesLat";
@@ -35,7 +34,6 @@ export const getStaticProps = async () => {
         population: country.population.toLocaleString() ,
         timezones: formatTimezones(country),
         currenciesName: currenciesToString(country),
-        currenciesSymbols: currenciesSymbolsToString(country),
         latitude: getCoordinatesLat(country),
         longitude: getCoordinatesLong(country)
       }

@@ -35,8 +35,7 @@ export default function Country(props) {
                         <span className={styles.infoLeft}>Moeda</span>
                         <span className={styles.lineWrapper}/>
                         <span className={styles.infoRight}>
-                            <strong>{props.country.currenciesSymbols} </strong>  
-                            - {props.country.currenciesName}
+                           {props.country.currenciesName}
                         </span>
                     </li>
                 </ul>

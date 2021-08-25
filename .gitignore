@@ -19,6 +19,7 @@
 .DS_Store
 *.pem
 /docs
+to-do.txt
 
 # debug
 npm-debug.log*
